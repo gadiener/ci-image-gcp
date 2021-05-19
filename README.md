@@ -17,5 +17,5 @@ It also includes:
 
 To override these default versions:
 
-`docker build -t jobtome-labs/ci-image-gcp --build-arg CLOUD_SDK_VERSION=v9000 --build-arg KUBE_SCORE_VERSION=v1000 --build-arg SOPS_VERSION=v4000 .`
+`docker build -t gdiener/ci-image-gcp --build-arg CLOUD_SDK_VERSION=v9000 --build-arg KUBE_SCORE_VERSION=v1000 --build-arg SOPS_VERSION=v4000 .`
 
